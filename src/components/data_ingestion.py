@@ -34,6 +34,6 @@ class DataIngestion:
             raise CustomException(sys,e)
 
 
-if __name__=="__main__":
-    obj=DataIngestion()
-    obj.Initiate_data_ingestion()
+#if __name__=="__main__":
+    #obj=DataIngestion()
+    #obj.Initiate_data_ingestion()
