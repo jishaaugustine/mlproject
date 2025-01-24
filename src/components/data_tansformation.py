@@ -81,7 +81,7 @@ class DataTransformation:
 
             input_feature_train_arr=pre_processing_obj.fit_transform(input_feature_train_df)
 
-            input_feature_test_arr=pre_processing_obj.fit_transform(input_feature_test_df)
+            input_feature_test_arr=pre_processing_obj.transform(input_feature_test_df)
 
             logging.info("Combining pre processed array and target")
 
